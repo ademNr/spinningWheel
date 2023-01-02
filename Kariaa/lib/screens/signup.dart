@@ -1,7 +1,7 @@
-import 'dart:ffi';
+
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
+
 import 'package:flutter/material.dart';
 import 'Home.dart';
 
@@ -70,7 +70,7 @@ class _SignUpState extends State<SignUp> {
             ),
 
             Container(
-              padding: EdgeInsets.fromLTRB(200, 50, 0,0),
+              padding:   EdgeInsets.fromLTRB(200, 50, 0,0),
 
 
               child: Image.asset(
@@ -92,7 +92,7 @@ class _SignUpState extends State<SignUp> {
 
                   // hello text---------------------------------------------
                   Container(
-                    padding : const EdgeInsets.fromLTRB(0, 0, 190, 150),
+                    padding :  EdgeInsets.fromLTRB(0, 0, 190, 150),
                     child: const Text('Karia ',
                       style: TextStyle(
                         fontWeight: FontWeight.w900,
@@ -115,7 +115,7 @@ class _SignUpState extends State<SignUp> {
 
                   // email----------------------------------
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(50, 5, 50, 5),
+                    padding:  EdgeInsets.fromLTRB(50, 5, 50, 5),
                     child: Container(
 
                       decoration: BoxDecoration(
@@ -148,7 +148,7 @@ class _SignUpState extends State<SignUp> {
                   // passwd------------------------------------------------
 
                   Padding(
-                    padding: const  EdgeInsets.fromLTRB(50,5 , 50, 5),
+                    padding:   EdgeInsets.fromLTRB(50,5 , 50, 5),
                     child: Container(
 
 
@@ -196,18 +196,7 @@ class _SignUpState extends State<SignUp> {
 
 
 
-
                   const SizedBox(height: 10,),
-
-
-
-
-
-
-
-
-
-
 
                   const SizedBox(height: 10,),
 
